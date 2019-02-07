@@ -5,9 +5,10 @@
     <meta charset="utf-8" />
     <title>Loris Website</title>
     <link href="./styles/my_style.css" rel="stylesheet">
+    <script src="./scripts/my-scritp.js"></script>
 </head>
 
-<body>
+<body onload="init();">
     <div class="welcome">
         Hello, and welcome to my site
         <br>
@@ -29,7 +30,15 @@
         C'est une image
         <br>
         <img src="image/font.jpg" />
+
+        <button onclick="test_button()">
+        Click me !
+        </button>
     </div>
+
+    <div id="test">  
+    </div>
+
 
 </body>
 
